@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CC35B33"
+    tools:context=".Game">
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llList" />
+
+    <LinearLayout
+        android:id="@+id/llList"
+        android:layout_width="369dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvName1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="Name1"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvName2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name2" />
+
+        <TextView
+            android:id="@+id/tvName3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name3" />
+
+        <TextView
+            android:id="@+id/tvName4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name4" />
+
+        <TextView
+            android:id="@+id/tvName5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name5" />
+
+        <TextView
+            android:id="@+id/tvName6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name6" />
+
+        <TextView
+            android:id="@+id/tvName7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name7" />
+
+        <TextView
+            android:id="@+id/tvName8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name8" />
+
+        <TextView
+            android:id="@+id/tvName9"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name9" />
+
+        <TextView
+            android:id="@+id/tvName10"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:text="Name10" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
